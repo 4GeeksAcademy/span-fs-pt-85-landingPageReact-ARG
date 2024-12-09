@@ -9,7 +9,7 @@ import Footer from "./footer";
 //create your first component
 const Home = () => {
 	return (
-		<div className="container-fluid">
+		<div className="d-flex flex-column vh-100">
 			<NavBar/>
 			<Header/>
 			<div className = "d-flex flex-md-row flex-column flex-fill justify-content-center mt-4">
@@ -18,7 +18,7 @@ const Home = () => {
 				<Card/>
 				<Card/>
 			</div>
-			<div className = "d-flex  justify-content-center mt-2">
+			<div className = "d-flex justify-content-center  vh-100 mt-2">
 				<Footer/>
 			</div>
 		</div>
